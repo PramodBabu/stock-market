@@ -1,0 +1,24 @@
+<table>
+            <tr>
+                <th>Name</th>
+                <th>Open</th>
+                <th>Close</th>
+                <th>high</th>
+                <th>low</th>
+                <th>Adjusted Close</th>
+                <th>Volume</th>
+                <th>Date</th>
+            </tr>
+            {this.state.companyInfo.map(item => 
+                <tr>
+                    <td key={item.symbol}>{item.symbol}</td>
+                    <td key={item.open}>{item.open.substring(0, 4)}</td>
+                    <td key={item.close}>{item.close.substring(0, 4)}</td>
+                    <td key={item.high}>{item.high.substring(0, 4)}</td>
+                    <td key={item.low}>{item.low.substring(0, 4)}</td>
+                    <td key={item.adjusted_close}>{item.adjusted_close.substring(0, 4)}</td>
+                    <td key={item.volume}>{item.volume.substring(0, 4)}</td>
+                    <td key={item.date}>{item.date.substring(0,10)}</td>
+                </tr>
+            )}
+        </table>

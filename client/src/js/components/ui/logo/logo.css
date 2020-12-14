@@ -1,0 +1,19 @@
+.Logo {
+    box-sizing: border-box;
+    display: flex;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.Logo img {
+    height: 100%
+}
+
+.logoText {
+    margin: auto;
+    /* margin-left: 10px; */
+    /* padding-top: 4px; */
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}

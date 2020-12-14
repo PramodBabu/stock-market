@@ -1,0 +1,21 @@
+.NavigationItems {
+    /* padding-bottom: 8px; */
+    display: flex;
+    /* align-items: right; */
+    height: 100%;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.navText {
+    color: white;
+    padding-right: 5px;
+    padding-top: 5px;
+    /* margin-bottom: 10px; */
+}
+
+.navigationItemImages {
+    /* height: 20px; */
+    /* width: 20px; */
+}
+

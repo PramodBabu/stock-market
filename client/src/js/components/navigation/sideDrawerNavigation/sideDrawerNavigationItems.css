@@ -1,0 +1,10 @@
+.tilesContainer {
+    margin-top: 10px;
+    border-top: 1px solid #04012e;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 14px;
+    padding: 10px 5px ;
+}

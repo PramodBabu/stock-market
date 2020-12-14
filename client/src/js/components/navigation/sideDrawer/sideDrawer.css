@@ -1,0 +1,25 @@
+.SideDrawer {
+    position: fixed;
+    width: 300px;
+    max-width: 70%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 200;
+    background-color: rgb(228, 235, 255);
+    padding-top: 30px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-out;
+}
+
+.navText {
+    color: black;
+}
+
+.Open {
+    transform: translateX(0);
+}
+
+.Close {
+    transform: translate(-100%);
+}
